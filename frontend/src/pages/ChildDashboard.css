@@ -1,0 +1,345 @@
+.child-dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.child-hero-card {
+  background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  border: 2px solid #fcd34d;
+  border-radius: 24px;
+  padding: 28px 32px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  box-shadow: 0 8px 25px rgba(245, 158, 11, 0.15);
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.child-avatar-wrap {
+  background: #ffffff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.big-avatar {
+  font-size: 3rem;
+}
+
+.child-hero-info {
+  flex: 1;
+}
+
+.child-hero-info h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #78350f;
+}
+
+.hero-subtext {
+  margin: 4px 0 12px 0;
+  color: #92400e;
+  font-size: 1rem;
+}
+
+.stats-badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stat-pill {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.star-pill {
+  background: #ffffff;
+  color: #b45309;
+  border: 1px solid #fef08a;
+}
+
+.streak-pill {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.level-pill {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.hero-quick-action {
+  margin-left: auto;
+}
+
+.big-practice-btn {
+  background: #d97706;
+  color: #ffffff;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.4);
+  transition: all 0.2s ease;
+}
+
+.big-practice-btn:hover {
+  background: #b45309;
+  transform: translateY(-2px);
+}
+
+.child-grid {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 24px;
+}
+
+@media (max-width: 868px) {
+  .child-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.dashboard-section-card {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+  margin-bottom: 24px;
+}
+
+.section-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.section-head h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #1e293b;
+}
+
+.section-tag {
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+}
+
+.section-desc {
+  margin: 0 0 16px 0;
+  font-size: 0.9rem;
+  color: #64748b;
+}
+
+.quests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.quest-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #f8fafc;
+  border: 1px solid #f1f5f9;
+  border-radius: 14px;
+  padding: 14px 18px;
+  transition: all 0.2s ease;
+}
+
+.quest-item:hover {
+  background: #ffffff;
+  border-color: #cbd5e1;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.quest-icon {
+  font-size: 2rem;
+}
+
+.quest-details {
+  flex: 1;
+}
+
+.quest-word-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.quest-word {
+  font-size: 1.1rem;
+  color: #0f172a;
+}
+
+.quest-target-tag {
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.quest-hint {
+  margin: 4px 0 0 0;
+  font-size: 0.85rem;
+  color: #64748b;
+}
+
+.quest-action {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.quest-points {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #d97706;
+}
+
+.quest-start-btn {
+  background: #2563eb;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.quest-start-btn:hover {
+  background: #1d4ed8;
+}
+
+.plan-summary-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.plan-summary-box h4 {
+  margin: 0 0 6px 0;
+  color: #166534;
+  font-size: 1.05rem;
+}
+
+.plan-desc {
+  margin: 0 0 14px 0;
+  font-size: 0.85rem;
+  color: #15803d;
+}
+
+.progress-bar-wrap {
+  margin-bottom: 14px;
+}
+
+.progress-bar-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #166534;
+  margin-bottom: 6px;
+}
+
+.bar-track {
+  background: #dcfce7;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar-fill {
+  background: #16a34a;
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.open-drills-btn {
+  width: 100%;
+  background: #16a34a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.view-plan-link {
+  background: transparent;
+  border: none;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.badges-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.badge-card {
+  border-radius: 12px;
+  padding: 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.badge-card.unlocked {
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+}
+
+.badge-card.locked {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  opacity: 0.6;
+}
+
+.badge-emoji {
+  font-size: 2rem;
+  margin-bottom: 4px;
+}
+
+.badge-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.badge-status {
+  font-size: 0.72rem;
+  color: #92400e;
+  margin-top: 2px;
+}
